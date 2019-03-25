@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="图书" >
+            <menu>
+                <item android:title="图书查询"  android:id="@+id/bookFind"/>
+                <item android:title="增加图书" android:id="@+id/bookAdd"/>
+                <item android:title="书籍信息修改" android:id="@+id/bookInfoChange"/>
+            </menu>
+        </item>
+        <item android:title="用户"  >
+            <menu>
+                <item android:title="用户查询" android:id="@+id/userFind"/>
+                <item android:title="增加用户" android:id="@+id/userAdd"/>
+                <item android:title="用户信息修改" android:id="@+id/userInfoFind"/>
+            </menu>
+        </item>
+        <item android:title="登记">
+            <menu>
+                <item android:title="借书登记" android:id="@+id/borrowIn"/>
+            </menu>
+        </item>
+        <item android:title="费用">
+            <menu>
+                <item android:title="逾期费用修改" android:id="@+id/borrowInfoChange"/>
+            </menu>
+        </item>
+    </group>
+</menu>
